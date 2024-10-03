@@ -59,6 +59,6 @@ print("Core successfully installed!")
 print("Run /Core/init.lua to start.")
 
 io.open("startup.lua", "w"):write('shell.run("/Core/init.lua")'):close()
-print("Created a startup file for Core")
+print("Created a startup file for Core. Restart the computer to execute")
 
 print("=== Instalation complete ===")
