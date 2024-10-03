@@ -34,7 +34,7 @@ local function askInput()
 end
 
 
-local url = "https://raw.githubusercontent.com/hzFishy/CCT_RedstoneRep/refs/heads/main/SenderComputer/"
+local url = "https://raw.githubusercontent.com/hzFishy/CCT_RedstoneRep/refs/heads/main/ListenerComputer/"
 local tasks = {}
 for i, path in ipairs(files) do
   tasks[i] = function()
